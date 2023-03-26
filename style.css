@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Center Elements*/
+.navs{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*Navigation Bar*/
+nav{
+    flex: 1;
+    text-align: right;
+}
+/*Navigation Bar ul design*/
+nav ul{
+    display: inline block;
+    list-style-type:none ;
+}
+/*Navigation Bar li design*/
+nav li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+/*logo design*/
+nav img{
+    border-radius: 10%;
+}
+/*backdrop radius design*/
+.log img{
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+p{
+    color: black;
+}
+/*keep space between browser border and content*/
+.container{ 
+    background: url(images/ADALDMAD.jpg);
+    background-size: cover;
+    max-width: 70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 20px;
+}
+/*creates row*/
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+/*specify width and padding to fit*/
+.smolc{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/*column design*/
+.col{
+    text-decoration-thickness:5px ;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/*prduct heading design*/
+.lmao{
+    margin-bottom: 7px;
+    color: black;
+    text-decoration-skip:ink;
+}
+.col{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col img{
+    width: 100%;
+}
+/*zoom into products*/
+.zoom{
+    padding: 50px;
+    background-color:transparent;
+    transition: transform .2s;
+    width: 110%;
+    margin: 0 auto;
+}/*zoom on mpuse hover action*/
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+/*centers elements*/
+.centers{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+}
+/*creates unique rounded undeline*/
+.centers::after{
+    content:'';
+    background: rgb(98, 98, 98);
+    width:80px;
+    height:5px;
+    border-radius:5px;
+    position:absolute;
+    bottom: 0;
+    left: 46%;
+}/*footer design*/
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+    text-align: center;
+}
+/*icon sizing*/
+.icons{
+    margin-top: 10px;
+    padding-left:2px;
+    padding-right: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25px;
+}
+/*select options design*/
+.oof{
+    position: relative;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+label{
+    text-align: center;
+}
+input{
+    width: 200px;
+    text-align: center;
+}
+input:focus{
+    background-color: lightgray;
+}
+/*checkout button size*/
+.lul{
+    width: 70px;
+}
+/*aligns form to the left*/
+.cen{
+    margin-left: 100px;
+    text-align: left;
+}
+/*Transforms text to uppercase in invoice*/
+.p2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+/*centers elemnts*/
+.cen2{
+    text-align: center;
+}
